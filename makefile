@@ -1,5 +1,5 @@
 up:
-	docker compose up -d
+	docker compose up -d && docker compose exec node npm install && docker compose exec node npm run dev
 
 down:
 	docker compose down
