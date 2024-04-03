@@ -1,6 +1,8 @@
   <h1 align="center">RESTAPI_Swagger 📚 </h1>
   <h3 align="center">Granular project for skills demo </h3>
 
+![RESTAPI_Swagger](https://github.com/WSG434/RESTAPI_Swagger/blob/master/preview.jpg?raw=true)
+
 ## 🚀 Stack
 
 - PHP, Laravel
@@ -23,7 +25,3 @@
    - P: 12345678
 
 PS: По адресу `localhost:8080` доступен интерфейс laravel breeze
-
-## 💻 Preview
-
-![RESTAPI_swagger](https://downloader.disk.yandex.ru/preview/5f1848046d4a7c103b528c4d97caa060b16d8adaa62d4d5222f6e07c8f9053ad/660d632d/wTq2rzB8NBqTxkRi1rbyuoDS_X5nhvmdozjGUtA9ujCt42hjpK9Sqk73k0RsDnupnTx8rPCiZ1RCwESxNf5xlw%3D%3D?uid=0&filename=2024-04-03_12-36-21.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048)

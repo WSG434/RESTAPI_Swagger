@@ -6,13 +6,13 @@
     },
     "paths": {
         "/api/": {},
-        "/auth/login": {
+        "/api/auth/login": {
             "post": {
                 "tags": [
                     "User"
                 ],
                 "summary": "Аутентификация",
-                "operationId": "2cc489acffa34f57c5edbf81046cf95d",
+                "operationId": "fcd34ae950a1e5a422292f30c1764ef5",
                 "requestBody": {
                     "content": {
                         "application/json": {
@@ -65,7 +65,7 @@
                 "tags": [
                     "Post"
                 ],
-                "summary": "Просмотр",
+                "summary": "Просмотреть все посты",
                 "operationId": "47925884fb256655799d0ffd57c2a894",
                 "responses": {
                     "200": {
@@ -111,7 +111,7 @@
                 "tags": [
                     "Post"
                 ],
-                "summary": "Создание",
+                "summary": "Создать пост",
                 "operationId": "7999e1ba2e5585f522fc5d9d27915557",
                 "requestBody": {
                     "content": {
@@ -175,7 +175,7 @@
                 "tags": [
                     "Post"
                 ],
-                "summary": "Единичная запись",
+                "summary": "Посмотреть один конкретный пост",
                 "operationId": "c5253d16752aa5889a1fa6e763471311",
                 "parameters": [
                     {
@@ -227,7 +227,7 @@
                 "tags": [
                     "Post"
                 ],
-                "summary": "Удаление",
+                "summary": "Удалить пост",
                 "operationId": "6089ca174ecd6f787461d01e729e93c8",
                 "parameters": [
                     {
@@ -266,7 +266,7 @@
                 "tags": [
                     "Post"
                 ],
-                "summary": "Обновление",
+                "summary": "Обновить пост",
                 "operationId": "58e7e5c3e0c1e1f02bc488b3be5eb91b",
                 "parameters": [
                     {

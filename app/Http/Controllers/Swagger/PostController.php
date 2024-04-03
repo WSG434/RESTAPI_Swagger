@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 /**
  *
  * @OA\POST(
- *    path="/auth/login",
+ *    path="/api/auth/login",
  *    summary="Аутентификация",
  *    tags={"User"},
  *
@@ -38,7 +38,7 @@ use App\Http\Controllers\Controller;
  *
  * @OA\POST(
  *   path="/api/posts",
- *   summary="Создание",
+ *   summary="Создать пост",
  *   tags={"Post"},
  *   security={{ "bearerAuth": {} }},
  *
@@ -69,7 +69,7 @@ use App\Http\Controllers\Controller;
  *
  * @OA\GET(
  *    path="/api/posts",
- *    summary="Просмотр",
+ *    summary="Просмотреть все посты",
  *    tags={"Post"},
  *    security={{ "bearerAuth": {} }},
  *
@@ -92,7 +92,7 @@ use App\Http\Controllers\Controller;
  *
  * @OA\GET(
  *     path="/api/posts/{post}",
- *     summary="Единичная запись",
+ *     summary="Посмотреть один конкретный пост",
  *     tags={"Post"},
  *     security={{ "bearerAuth": {} }},
  *     @OA\Parameter(
@@ -119,7 +119,7 @@ use App\Http\Controllers\Controller;
  *
  * @OA\PATCH(
  *      path="/api/posts/{post}",
- *      summary="Обновление",
+ *      summary="Обновить пост",
  *      tags={"Post"},
  *      security={{ "bearerAuth": {} }},
  *      @OA\Parameter(
@@ -156,7 +156,7 @@ use App\Http\Controllers\Controller;
  *
  * @OA\DELETE(
  *      path="/api/posts/{post}",
- *      summary="Удаление",
+ *      summary="Удалить пост",
  *      tags={"Post"},
  *      security={{ "bearerAuth": {} }},
  *
